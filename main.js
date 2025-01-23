@@ -101,7 +101,7 @@ var app = http.createServer(function(request,response){
         response.writeHead(302, {Location: `/?id=${title}`});
         response.end();
       });
-    });
+    });ex
   } else if(pathname === '/update') {
     fs.readdir('./data', function(error, filelist) {
       fs.readFile(`data/${queryData.id}`, 'utf-8', function(err, description){
