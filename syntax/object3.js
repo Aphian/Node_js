@@ -6,7 +6,7 @@ var o = {
         console.log(this.v1);
     },
     f2: function () {
-        console.log(this.v2);    
+        console.log(this.v2);   e 
     },
 }
 
